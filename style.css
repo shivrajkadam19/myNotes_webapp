@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+#btnCopy {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    border: none;
+    mix-blend-mode: darken;
+}
+
+.btnDelete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    color: red;
+    background-color: transparent;
+}
+
+#searchTxt{
+    height: 40px !important;
+    width: 400px !important;
+    padding: 0 0 0 15px ;
+}
+section {
+    height: 57vh;
+    background-color: rgb(208, 208, 153);
+}
+
+.card {
+    border: none;
+    height: 250px;
+    box-shadow: 0 0 10px rgb(255, 225, 0);
+}
+
+.card-text {
+    height: 100px;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+img {
+    size: 100% 100%;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+}
+
+section {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#notes h1 {
+    color: red;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 700;
+}
+
+#divide-section {
+    margin: 1px;
+    border: 1px black solid;
+}
+
+.btn {
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 700;
+    width: 110px;
+    margin: 15px 20px;
+}
