@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20">
+    <!-- Circle -->
+    <circle cx="10" cy="10" r="9" fill="none" stroke="red" stroke-width="2" />
+
+    <!-- Multiplication (×) symbol -->
+    <line x1="4" y1="4" x2="16" y2="16" stroke="red" stroke-width="3" />
+    <line x1="4" y1="16" x2="16" y2="4" stroke="red" stroke-width="3" />
+</svg>
